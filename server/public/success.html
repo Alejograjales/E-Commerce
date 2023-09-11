@@ -3,13 +3,28 @@
 <head>
   <title>Thanks for your order!</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    button {
+			color: #ffffff;
+			background-color: #109468;
+			font-size: 19px;
+			border: 0px solid #ffffff;
+			padding: 15px 50px;
+			cursor: pointer
+		}
+		button:hover {
+			color: #2d63c8;
+			background-color: #ffffff;
+		}
+  </style>
 </head>
 <body>
   <section>
     <p>
-      We appreciate your business! If you have any questions, please email
+      Purchase was successful! If you have any questions, please email
       <a href="mailto:storewebsite@gmail.com">storewebsite@gmail.com</a>.
     </p>
+    <button onclick="window.open('http://localhost:4200/home')" type="button" name="go-back">Go back to store</button>
   </section>
 </body>
 </html>
