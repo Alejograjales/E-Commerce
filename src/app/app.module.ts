@@ -20,14 +20,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './footer/footer.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { FiltersComponent } from './pages/home/components/filters/filters.component';
 import { ProductBoxComponent } from './pages/home/components/product-box/product-box.component';
 import { ProductsHeaderComponent } from './pages/home/components/products-header/products-header.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 import { CartService } from './services/cart.service';
 import { StoreService } from './services/store.service';
-import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { FooterComponent } from './footer/footer.component';
     ProductBoxComponent,
     CartComponent,
     FooterComponent,
+    ProductDetailComponent,
   ],
   imports: [
     BrowserModule,
